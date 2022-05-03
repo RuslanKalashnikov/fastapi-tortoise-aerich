@@ -1,0 +1,16 @@
+# STARTUP
+docker-compose up
+
+ONLY ONE TIME
+
+1) Init aerich:
+    docker-compose exec toerich aerich init -t database.DATABASE_CONFIG
+
+    CORRECT ANSWER:
+    created '/migrations'
+    created 'aerich.ini'
+
+2) Init all models:
+    docker-compose exec toerich aerich init-db
+
+    init aerich and all tortoise models.

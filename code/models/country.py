@@ -9,6 +9,7 @@ class Country(Model):
     icon = fields.TextField()
     is_active = fields.BooleanField()
     additional_info = fields.TextField()
+    surname = fields.CharField(max_length=111)
 
     class Meta:
         table = 'countries'
