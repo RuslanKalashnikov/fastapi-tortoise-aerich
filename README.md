@@ -1,5 +1,4 @@
-# STARTUP
-
+## STARTUP
 #### `docker-compose up`
 
 ### ONLY ONE TIME
