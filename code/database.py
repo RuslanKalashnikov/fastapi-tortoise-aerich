@@ -7,6 +7,6 @@ async def init():
     await Tortoise.init(
         db_url=settings.DATABASE_URL,
         modules={
-            'models': ['code.models'],
+            'models': ['code.models', 'aerich.models'],
         },
     )
